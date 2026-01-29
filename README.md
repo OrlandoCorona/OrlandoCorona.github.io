@@ -116,12 +116,39 @@ PHP · PostgreSQL · SQL · Docker · Render · Git · HTML · CSS
 ### Código fuente
 👉 https://github.com/OrlandoCorona/ElArca-System
 
-### 🔹 Zuber — Movilidad & Estadística
-Análisis estadístico y SQL para toma de decisiones.
-- SQL, Python, Pandas  
-👉 https://github.com/OrlandoCorona/SQL_Hypothesis_Testing
+### 📊 Zuber — Movilidad & Estadística
 
----
+Análisis de datos de movilidad urbana para identificar si las condiciones climáticas influyen en la duración de los viajes.
+
+Se construyó un pipeline de análisis desde la extracción de datos con SQL hasta la validación estadística en Python, permitiendo evaluar hipótesis y detectar patrones de comportamiento en la demanda de viajes.
+
+**¿Qué hice?**
+- Extracción y unión de datos con consultas SQL (JOIN, CASE, agregaciones).
+- Limpieza y preparación de datos en Python (Pandas).
+- Análisis exploratorio y visualización de tendencias.
+- Pruebas estadísticas para validar hipótesis sobre clima vs duración de viajes.
+
+**Tecnologías usadas**
+- SQL
+- Python (Pandas, SciPy, Matplotlib)
+- Jupyter Notebook
+
+**Resultado**
+Se identificaron diferencias significativas en la duración promedio de los viajes bajo ciertas condiciones climáticas, mostrando cómo factores externos impactan el comportamiento del usuario y pueden influir en decisiones operativas y de pricing.
+
+### Evidencias
+
+<p align="center">
+  <img src="images\JupyterGraf2S8.png" alt="Top 10 Neighborhoods" width="700">
+</p>
+
+<p align="center">
+  <img src="images\Jupyter_GraficaS8.png" alt="Trip Taxis Company" width="700">
+</p>
+
+📁 Código y análisis completo:  
+👉 https://github.com/OrlandoCorona/Zuber-Data-Analysis
+
 
 ## 🧰 Tecnologías
 Python · SQL · PostgreSQL · Power BI · ETL · Web Scraping · Git · Docker
