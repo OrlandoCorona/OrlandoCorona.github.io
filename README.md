@@ -1,6 +1,12 @@
-# Carlos Orlando Meneses Corona
-**Data Analyst Jr | Technical Operations | SQL · Python · BI**
+<h1 style="color:#0969da; font-size:36px; margin-bottom:0;">
+Carlos Orlando Meneses Corona
+</h1>
 
+<p style="font-size:18px; margin-top:4px;">
+<b>Data Analyst Jr | Technical Operations | SQL · Python · BI</b>
+</p>
+
+<p>
 Analista de Datos con formación en Ingeniería TIC y experiencia en análisis de datos,
 automatización, SQL, BI y procesos operativos reales.
 
