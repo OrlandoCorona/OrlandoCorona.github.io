@@ -32,8 +32,11 @@ Python · Requests · BeautifulSoup · Pandas · Matplotlib · Git · Render
 **Resultado / impacto**
 
 <p align="center">
-  <img src="images/web_scraping_app.png" alt="Vista de la aplicación de web scraping" width="700">
+  <img src="images/web_scraping_app.png"
+       alt="Aplicación web mostrando los resultados del proceso de web scraping y visualización de datos extraídos"
+       width="700">
 </p>
+
 
 - <u>Automatización de la obtención de datos</u> sin intervención manual.  
 - <u>Creación de un dataset reutilizable</u> para análisis posteriores.  
@@ -77,12 +80,17 @@ PHP · PostgreSQL · SQL · Docker · Render · Git · HTML · CSS
 **Evidencias**
 
 <p align="center">
-  <img src="images/Index_Arca_Web.png" alt="Pantalla principal del sistema El Arca" width="700">
+  <img src="images/Index_Arca_Web.png"
+       alt="Pantalla principal del sistema web El Arca para gestión de ventas, consumo e inventarios"
+       width="700">
 </p>
 
 <p align="center">
-  <img src="images/DB_Schema_Arca.png" alt="Esquema de base de datos del sistema El Arca" width="700">
+  <img src="images/DB_Schema_Arca.png"
+       alt="Diagrama del modelo de base de datos relacional utilizado en el sistema El Arca"
+       width="700">
 </p>
+
 
 **Código fuente**  
 https://github.com/OrlandoCorona/ElArca-System
@@ -108,12 +116,16 @@ Se encontraron diferencias significativas en la duración promedio de los viajes
 **Evidencias**
 
 <p align="center">
-  <img src="images/JupyterGraf2S8.png" alt="Análisis de zonas con mayor demanda" width="700">
+  <img src="images/JupyterGraf2S8.png"
+       alt="Gráfica de análisis exploratorio mostrando las zonas con mayor número de viajes"
+       width="700">
+</p>
+<p align="center">
+  <img src="images/Jupyter_GraficaS8.png"
+       alt="Visualización de la distribución de duración de viajes"
+       width="700">
 </p>
 
-<p align="center">
-  <img src="images/Jupyter_GraficaS8.png" alt="Distribución de duración de viajes" width="700">
-</p>
 
 - <u>Pipeline completo desde SQL hasta estadística</u>.  
 - <u>Validación de hipótesis con métodos estadísticos</u>.  
