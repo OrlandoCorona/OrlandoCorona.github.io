@@ -8,9 +8,10 @@ Carlos Orlando Meneses Corona
 
 <p>
 Analista de Datos con formación en Ingeniería TIC y experiencia en análisis de datos,
-automatización, SQL, BI y procesos operativos reales.
+automatización, SQL, BI y procesos operativos.
+</p>
 
----
+<hr>
 
 ## 📊 Proyectos
 
