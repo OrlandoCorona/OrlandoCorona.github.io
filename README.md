@@ -12,7 +12,7 @@ automatización, SQL, BI y procesos operativos reales.
 Extracción de datos desde HTML, procesamiento con Python y despliegue del pipeline.
 - Python, Requests, BeautifulSoup
 - Render, Git  
-👉 https://github.com/OrlandoCorona/NOMBRE_DEL_REPO
+👉 https://github.com/OrlandoCorona/App_Web_Streamlit
 
 ---
 
@@ -20,14 +20,13 @@ Extracción de datos desde HTML, procesamiento con Python y despliegue del pipel
 Refactor y migración de sistema interno para inventarios, consumo y reservas.
 - PHP, PostgreSQL, SQL
 - Docker, Render  
-👉 https://github.com/OrlandoCorona/NOMBRE_DEL_REPO
-
+[👉 https://github.com/OrlandoCorona/-Arca
 ---
 
 ### 🔹 Zuber — Movilidad & Estadística
 Análisis estadístico y SQL para toma de decisiones.
 - SQL, Python, Pandas  
-👉 https://github.com/OrlandoCorona/NOMBRE_DEL_REPO
+👉 https://github.com/OrlandoCorona/SQL_Hypothesis_Testing
 
 ---
 
