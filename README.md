@@ -3,59 +3,121 @@ Carlos Orlando Meneses Corona
 </h1>
 
 <p style="font-size:18px; margin-top:4px;">
-<b>Data Analyst Jr | Technical Operations | SQL · Python · BI</b>
+<b>Data Analyst Jr · BI Analyst — SQL · Python · Estadística</b>
 </p>
 
 <p>
-Analista de Datos con formación en Ingeniería TIC y experiencia en análisis de datos,
-automatización, SQL, BI y procesos operativos orientados a la toma de decisiones.
+Analista de datos con formación en Ingeniería TIC. Convierto datos en decisiones:
+SQL, limpieza y análisis con Python, pruebas de hipótesis y dashboards interactivos.
 </p>
 
 <hr>
 
 ## **Proyectos**
 
-### **Web Scraping y Despliegue en la Nube**
+### **Análisis de viajes en taxi — Chicago (SQL + Estadística)**
 
-**Descripción del proyecto**  
-Desarrollé un pipeline de extracción automática de datos desde una fuente HTML pública para generar un dataset limpio y listo para análisis. El objetivo fue transformar datos no estructurados en información accesible y reutilizable mediante un proceso reproducible y desplegado en la nube.
+Análisis de movilidad urbana para evaluar si las condiciones climáticas influyen en la duración de los viajes.
 
 **Qué hice**
-- Extracción de datos HTML usando Requests y BeautifulSoup.
-- Limpieza y estructuración del dataset con Python.
-- Generación de visualizaciones iniciales para exploración de datos.
-- Despliegue de la solución como aplicación web ligera para consulta de resultados.
+- Extracción y unión de datos con consultas **SQL**.
+- Limpieza y preparación de datos con Pandas.
+- Análisis exploratorio de la demanda por compañía y por barrio.
+- Prueba de hipótesis (t de Welch) para validar el efecto del clima.
 
 **Tecnologías utilizadas**  
-Python · Requests · BeautifulSoup · Pandas · Matplotlib · Git · Render
+SQL · Python (Pandas, SciPy, Matplotlib) · Jupyter Notebook
 
-**Resultado / impacto**
+**Resultado**
+La prueba estadística mostró diferencias significativas (p < 0.05) en la duración promedio de los viajes según el clima: los días de mal clima presentan trayectos más largos.
 
 <p align="center">
-  <img src="images/web_scraping_app.png"
-       alt="Aplicación web mostrando los resultados del proceso de web scraping y visualización de datos extraídos"
-       width="700">
+  <img src="images/JupyterGraf2S8.png" alt="Viajes por compañía y por barrio" width="700">
+</p>
+<p align="center">
+  <img src="images/Jupyter_GraficaS8.png" alt="Distribución de la duración de viajes" width="700">
 </p>
 
+**Código y análisis completo**  
+https://github.com/OrlandoCorona/chicago-rideshare-sql-analysis
 
-- <u>Automatización de la obtención de datos</u> sin intervención manual.  
-- <u>Creación de un dataset reutilizable</u> para análisis posteriores.  
-- <u>Disponibilidad pública del proceso</u> mediante una aplicación desplegada.
+---
 
-**Aprendizajes clave**
-- Manejo de datos no estructurados desde HTML.
-- Construcción de pipelines simples de datos (extracción → limpieza → salida).
-- Flujo completo de desarrollo y despliegue (código versionado + aplicación online).
+### **Análisis de ingresos de telecomunicaciones (Megaline)**
 
-**Evidencia y código**  
-Repositorio del proyecto:  
-https://github.com/OrlandoCorona/App_Web_Streamlit
+Comparación de los planes prepago Surf y Ultimate (500 usuarios) para orientar la inversión publicitaria.
+
+**Qué hice**
+- Ingeniería de ingresos: cálculo del ingreso mensual por usuario (cuota + excedentes).
+- Estadística descriptiva por plan y visualización de distribuciones.
+- Prueba t de Welch para comparar los ingresos promedio.
+
+**Tecnologías utilizadas**  
+Python (Pandas, NumPy, SciPy) · Jupyter Notebook
+
+**Resultado**
+**Ultimate genera ~20 % más de ingreso por usuario** ($72.24 vs $60.33) con una varianza 25× menor (t = −8.23, p ≈ 0). Recomendación: priorizar Ultimate en publicidad.
+
+<!-- Adjunta aquí tu captura: -->
+<!-- Sube tu captura como images/megaline_ingresos.png y descomenta este bloque:
+<p align="center"><img src="images/megaline_ingresos.png" width="700"></p>
+-->
+
+**Código y análisis completo**  
+https://github.com/OrlandoCorona/megaline-telecom-revenue-analysis
+
+---
+
+### **Dashboard de anuncios de autos (Streamlit + Plotly)**
+
+Aplicación web interactiva para explorar un dataset de anuncios de venta de autos.
+
+**Qué hice**
+- EDA del dataset (precio, kilometraje, año) en un notebook.
+- Construcción de una app con **Streamlit** y gráficos interactivos con **Plotly**.
+- Despliegue en la nube (Render) para acceso público.
+
+**Tecnologías utilizadas**  
+Python · Streamlit · Plotly · Pandas · Render
+
+<!-- Adjunta aquí tu captura del dashboard: -->
+<!-- Sube tu captura como images/vehicle_dashboard.png y descomenta este bloque:
+<p align="center"><img src="images/vehicle_dashboard.png" width="700"></p>
+-->
+
+**App en vivo:** https://proyecto-sprint7-zsy8.onrender.com/  
+**Código fuente:** https://github.com/OrlandoCorona/vehicle-ads-dashboard
+
+---
+
+### **Análisis del mercado de videojuegos**
+
+EDA de ~16 000 títulos (1980-2016) para identificar plataformas y géneros con mayor potencial comercial.
+
+**Qué hice**
+- Limpieza del dataset y creación de la métrica de ventas totales.
+- Análisis de plataformas, géneros y preferencias por región (NA, EU, JP).
+- Correlación entre reseñas y ventas; pruebas de hipótesis.
+
+**Tecnologías utilizadas**  
+Python (Pandas, NumPy, SciPy, Matplotlib, Seaborn) · Jupyter Notebook
+
+**Resultado**
+PS4 y Xbox One son las plataformas más prometedoras; las reseñas de críticos predicen mejor las ventas (r≈0.40) que las de usuarios (r≈0.10).
+
+<!-- Adjunta aquí tu captura: -->
+<!-- Sube tu captura como images/videojuegos_ventas.png y descomenta este bloque:
+<p align="center"><img src="images/videojuegos_ventas.png" width="700"></p>
+-->
+
+**Código y análisis completo**  
+https://github.com/OrlandoCorona/videogame-sales-analysis
 
 ---
 
 ### **Sistema Web “El Arca” – Gestión Operativa e Inventarios**
 
-Proyecto de refactor y profesionalización de un sistema interno para la operación de un restaurante real.
+Refactor y profesionalización de un sistema interno para la operación de un restaurante real.
 
 **Problema a resolver**
 - Inconsistencias en inventarios.  
@@ -65,90 +127,32 @@ Proyecto de refactor y profesionalización de un sistema interno para la operaci
 **Solución implementada**
 - Diseño de base de datos relacional para centralizar la operación.
 - Migración de MySQL a PostgreSQL para mejorar integridad y consultas.
-- Refactor del backend en PHP con estructura modular.
-- Separación entre lógica de negocio, vistas y acceso a datos.
-- Preparación de despliegue con Docker y pruebas en la nube.
-
-**Impacto**
-- <u>Mejor planeación de compras</u> basada en datos reales de consumo.  
-- <u>Reducción de errores manuales</u> en inventarios.  
-- <u>Base preparada para futuros análisis y dashboards</u>.
+- Refactor del backend en PHP con estructura modular (MVC).
+- Despliegue con Docker en la nube.
 
 **Tecnologías utilizadas**  
 PHP · PostgreSQL · SQL · Docker · Render · Git · HTML · CSS
 
-**Evidencias**
-
 <p align="center">
-  <img src="images/Index_Arca_Web.png"
-       alt="Pantalla principal del sistema web El Arca para gestión de ventas, consumo e inventarios"
-       width="700">
+  <img src="images/Index_Arca_Web.png" alt="Pantalla principal del sistema El Arca" width="700">
 </p>
-
 <p align="center">
-  <img src="images/DB_Schema_Arca.png"
-       alt="Diagrama del modelo de base de datos relacional utilizado en el sistema El Arca"
-       width="700">
+  <img src="images/DB_Schema_Arca.png" alt="Modelo de base de datos de El Arca" width="700">
 </p>
-
 
 **Código fuente**  
-https://github.com/OrlandoCorona/ElArca-System
-
----
-
-### **Zuber – Análisis de Movilidad y Estadística**
-
-Análisis de datos de movilidad urbana para evaluar si las condiciones climáticas influyen en la duración de los viajes.
-
-**Qué hice**
-- Extracción y unión de datos con consultas SQL.
-- Limpieza y preparación de datos con Pandas.
-- Análisis exploratorio y visualización de tendencias.
-- Pruebas estadísticas para validar hipótesis.
-
-**Tecnologías utilizadas**  
-SQL · Python (Pandas, SciPy, Matplotlib) · Jupyter Notebook
-
-**Resultado**
-Se encontraron diferencias significativas en la duración promedio de los viajes bajo distintas condiciones climáticas, mostrando que factores externos influyen en el comportamiento de los usuarios.
-
-**Evidencias**
-
-<p align="center">
-  <img src="images/JupyterGraf2S8.png"
-       alt="Gráfica de análisis exploratorio mostrando las zonas con mayor número de viajes"
-       width="700">
-</p>
-<p align="center">
-  <img src="images/Jupyter_GraficaS8.png"
-       alt="Visualización de la distribución de duración de viajes"
-       width="700">
-</p>
-
-
-- <u>Pipeline completo desde SQL hasta estadística</u>.  
-- <u>Validación de hipótesis con métodos estadísticos</u>.  
-- <u>Generación de insights accionables</u> para operación.
-
-**Código y análisis completo**  
-https://github.com/OrlandoCorona/Zuber-Data-Analysis
+https://github.com/OrlandoCorona/el-arca-restaurant-system
 
 ---
 
 ## **Tecnologías**
 
-Python · SQL · PostgreSQL · Power BI · ETL · Web Scraping · Git · Docker
+Python · SQL · PostgreSQL · Power BI · Streamlit · Plotly · Docker · Git
 
 ---
 
 ## **Contacto**
 
-LinkedIn  
-https://www.linkedin.com/in/carlos-orlando-meneses-corona-da/
-
-GitHub  
-https://github.com/OrlandoCorona
-
-Email  
-menesescoronacarlosorlando@gmail.com
+LinkedIn — https://www.linkedin.com/in/carlos-orlando-meneses-corona-da/  
+GitHub — https://github.com/OrlandoCorona  
+Email — menesescoronacarlosorlando@gmail.com
