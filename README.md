@@ -1,13 +1,14 @@
-<h1 style="color:#0969da; font-size:36px; margin-bottom:0;">
-Carlos Orlando Meneses Corona
-</h1>
-
-<p style="font-size:18px; margin-top:4px;">
-<b>Data Analyst Jr · BI Analyst — SQL · Python · Power BI · Estadística</b>
+<p align="center">
+  <img src="images/banner.png" alt="Carlos Orlando Meneses Corona — Data Analyst Jr · BI Analyst | SQL · Python · Power BI · Tableau" width="100%">
 </p>
 
-<p>
-Analista de datos con formación en Ingeniería TIC. Convierto datos en decisiones:
+<!-- Foto de perfil centrada. Se usa images/Foto_Perfil_COMC.png (headshot profesional ya incluido en el repo). -->
+<p align="center">
+  <img src="images/Foto_Perfil_COMC.png" alt="Carlos Orlando Meneses Corona" width="180" style="border-radius:18px; box-shadow:0 4px 14px rgba(31,78,121,0.35);">
+</p>
+
+<p align="center">
+Analista de datos con formación en Ingeniería TIC. Convierto datos en decisiones:<br>
 SQL, limpieza y análisis con Python, pruebas de hipótesis, ETL y dashboards interactivos.
 </p>
 
@@ -15,7 +16,32 @@ SQL, limpieza y análisis con Python, pruebas de hipótesis, ETL y dashboards in
 
 ## **Proyectos**
 
-### **1. Binance Crypto ETL Pipeline (ETL + PostgreSQL + Power BI)**
+### **1. CallMeMaybe — Detección de operadores ineficientes (Proyecto Final · Python + Estadística + Tableau)**
+
+Proyecto final del bootcamp. Analicé el desempeño de los operadores de un servicio de telefonía virtual (call center) para identificar, con criterios objetivos, a los menos eficientes.
+
+**Qué hice**
+- Limpieza y preparación de los datos de llamadas (duplicados, tipos de dato y cálculo del tiempo de espera).
+- Métricas por operador (llamadas perdidas, tiempo de espera y volumen) y detección de 141 operadores ineficientes de ~1,092 usando percentiles.
+- Prueba de hipótesis (Mann-Whitney) para comparar el volumen de llamadas entre operadores eficientes e ineficientes.
+- 2 dashboards en Tableau Public y una presentación ejecutiva.
+
+**Tecnologías utilizadas**  
+Python (Pandas, SciPy) · Estadística (Mann-Whitney) · Tableau Public · Google Colab
+
+**Resultado**
+El valor p ≈ 0 reveló un hallazgo clave: los operadores señalados en realidad atienden muchas más llamadas. No son ineficientes, están saturados. Con eso, la recomendación pasó de "sancionar operadores" a "redistribuir la carga".
+
+**Dashboards en vivo (Tableau Public)**
+- Dashboard 1: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard1
+- Dashboard 2: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard2
+
+**Código y análisis completo**  
+https://github.com/OrlandoCorona/callmemaybe-operators-analysis
+
+---
+
+### **2. Binance Crypto ETL Pipeline (ETL + PostgreSQL + Power BI)**
 
 Pipeline de datos de extremo a extremo que ingesta precios históricos de criptomonedas desde Binance, los valida y almacena en **PostgreSQL**, y presenta los resultados de estrategias cuantitativas en un **dashboard ejecutivo de Power BI**.
 
@@ -43,7 +69,7 @@ https://github.com/OrlandoCorona/binance-crypto-pipeline
 
 ---
 
-### **2. Análisis de viajes en taxi — Chicago (SQL + Estadística)**
+### **3. Análisis de viajes en taxi — Chicago (SQL + Estadística)**
 
 Análisis de movilidad urbana para evaluar si las condiciones climáticas influyen en la duración de los viajes.
 
@@ -71,7 +97,7 @@ https://github.com/OrlandoCorona/chicago-rideshare-sql-analysis
 
 ---
 
-### **3. Análisis de ingresos de telecomunicaciones (Megaline)**
+### **4. Análisis de ingresos de telecomunicaciones (Megaline)**
 
 Comparación de los planes prepago Surf y Ultimate (500 usuarios) para orientar la inversión publicitaria.
 
@@ -91,7 +117,7 @@ https://github.com/OrlandoCorona/megaline-telecom-revenue-analysis
 
 ---
 
-### **4. Dashboard de anuncios de autos (Streamlit + Plotly)**
+### **5. Dashboard de anuncios de autos (Streamlit + Plotly)**
 
 Aplicación web interactiva para explorar un dataset de anuncios de venta de autos.
 
@@ -112,7 +138,7 @@ Python · Streamlit · Plotly · Pandas · Render
 
 ---
 
-### **5. Análisis del mercado de videojuegos**
+### **6. Análisis del mercado de videojuegos**
 
 EDA de ~16 000 títulos (1980-2016) para identificar plataformas y géneros con mayor potencial comercial.
 
@@ -132,7 +158,7 @@ https://github.com/OrlandoCorona/videogame-sales-analysis
 
 ---
 
-### **6. Sistema Web "El Arca" — Gestión Operativa**
+### **7. Sistema Web "El Arca" — Gestión Operativa**
 
 Refactor y profesionalización de un sistema interno para la operación de un restaurante real.
 
@@ -159,7 +185,7 @@ PHP 8.2 · PostgreSQL · SQL · Docker · Render · Git · HTML · CSS
 
 ## **Tecnologías**
 
-Python · SQL · PostgreSQL · Power BI · Streamlit · Plotly · ETL · Docker · Git
+Python · SQL · PostgreSQL · Power BI · Tableau · Streamlit · Plotly · ETL · Docker · Git
 
 ---
 
