@@ -40,6 +40,10 @@ El valor p ≈ 0 reveló un hallazgo clave: los operadores señalados en realida
 - Dashboard 1: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard1
 - Dashboard 2: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard2
 
+<p align="center">
+  <img src="TB.png" alt="Operadores ineficaces" width="100%">
+</p>
+
 **Código y análisis completo**  
 https://github.com/OrlandoCorona/callmemaybe-operators-analysis
 
