@@ -41,7 +41,7 @@ El valor p ≈ 0 reveló un hallazgo clave: los operadores señalados en realida
 - Dashboard 2: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard2
 
 <p align="center">
-  <img src="TB.png" alt="Operadores ineficaces" width="100%">
+  <img src="images/TB.png" alt="Dashboard 2 en Tableau Public — llamadas por día y tipo (interna/externa)" width="760">
 </p>
 
 **Código y análisis completo**  
