@@ -32,6 +32,10 @@ Python (Pandas, SciPy) · Estadística (Mann-Whitney) · Tableau Public · Googl
 **Resultado**
 El valor p ≈ 0 reveló un hallazgo clave: los operadores señalados en realidad atienden muchas más llamadas. No son ineficientes, están saturados. Con eso, la recomendación pasó de "sancionar operadores" a "redistribuir la carga".
 
+<p align="center">
+  <img src="images/callmemaybe_hallazgo.png" alt="Los operadores señalados como ineficaces atienden ~16x más llamadas: están saturados, no ineficientes" width="760">
+</p>
+
 **Dashboards en vivo (Tableau Public)**
 - Dashboard 1: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard1
 - Dashboard 2: https://public.tableau.com/app/profile/carlos.orlando.meneses.corona/viz/CallMeMaybe-Operadoresineficaces/Dashboard2
