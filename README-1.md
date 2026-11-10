@@ -1,6 +1,6 @@
 # CallMeMaybe — Detección de operadores ineficientes
 
-> Proyecto final del bootcamp de Análisis de Datos (TripleTen) · Python + Estadística + Tableau
+> Proyecto final del Curso Intensivo de Análisis de Datos (TripleTen) · Python + Estadística + Tableau
 
 Analicé el desempeño de los operadores de **CallMeMaybe**, un servicio de telefonía virtual (call center), para identificar con criterios medibles a los operadores menos eficientes y proponer una acción concreta de negocio.
 
@@ -95,4 +95,4 @@ jupyter notebook Proyecto_Final_CallMeMaybe.ipynb
 - LinkedIn: https://www.linkedin.com/in/carlos-orlando-meneses-corona-da/
 - GitHub: https://github.com/OrlandoCorona
 
-> Datos del proyecto: dataset provisto por el bootcamp de TripleTen con fines educativos.
+> Datos del proyecto: dataset provisto por el Curso Intensivo de Análisis de Datos de TripleTen con fines educativos.

@@ -18,7 +18,7 @@ SQL, limpieza y análisis con Python, pruebas de hipótesis, ETL y dashboards in
 
 ### **1. CallMeMaybe — Detección de operadores ineficientes (Proyecto Final · Python + Estadística + Tableau)**
 
-Proyecto final del bootcamp. Analicé el desempeño de los operadores de un servicio de telefonía virtual (call center) para identificar, con criterios objetivos, a los menos eficientes.
+Proyecto final del Curso Intensivo de Análisis de Datos. Analicé el desempeño de los operadores de un servicio de telefonía virtual (call center) para identificar, con criterios objetivos, a los menos eficientes.
 
 **Qué hice**
 - Limpieza y preparación de los datos de llamadas (duplicados, tipos de dato y cálculo del tiempo de espera).
