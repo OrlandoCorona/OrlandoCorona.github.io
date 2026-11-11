@@ -2,7 +2,6 @@
   <img src="images/banner.png" alt="Carlos Orlando Meneses Corona — Data Analyst Jr · BI Analyst | SQL · Python · Power BI · Tableau" width="100%">
 </p>
 
-<!-- Foto de perfil centrada. Se usa images/Foto_Perfil_COMC.png (headshot profesional ya incluido en el repo). -->
 <p align="center">
   <img src="images/Foto_Perfil_COMC.png" alt="Carlos Orlando Meneses Corona" width="180" style="border-radius:18px; box-shadow:0 4px 14px rgba(31,78,121,0.35);">
 </p>
