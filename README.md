@@ -201,3 +201,4 @@ Python · SQL · PostgreSQL · Power BI · Tableau · Streamlit · Plotly · ETL
 LinkedIn — https://www.linkedin.com/in/carlos-orlando-meneses-corona-da/  
 GitHub — https://github.com/OrlandoCorona  
 Email — menesescoronacarlosorlando@gmail.com
+Portafolio-Web — https://orlando-corona.lovable.app/
